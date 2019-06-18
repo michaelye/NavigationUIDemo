@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/graph_bottom_navigation_bar_activity"
+            app:startDestination="@id/bottomNavigationBarMainFragment">
+
+    <fragment
+        android:id="@+id/bottomNavigationBarMainFragment"
+        android:name="com.michael.navigationuidemo.bottomnavigationbar.BottomNavigationBarMainFragment"
+        android:label="BottomNavigationBarMainFragment"/>
+    <fragment
+        android:id="@+id/bottomNavigationBarBroadcastFragment"
+        android:name="com.michael.navigationuidemo.bottomnavigationbar.BottomNavigationBarBroadcastFragment"
+        android:label="BottomNavigationBarBroadcastFragment"/>
+    <fragment
+        android:id="@+id/bottomNavigationBarSettingsFragment"
+        android:name="com.michael.navigationuidemo.bottomnavigationbar.BottomNavigationBarSettingsFragment"
+        android:label="BottomNavigationBarSettingsFragment"/>
+</navigation>

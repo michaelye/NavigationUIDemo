@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/drawer_layout_graph"
+            app:startDestination="@id/drawerLayoutMainFragment">
+
+    <fragment
+        android:id="@+id/drawerLayoutMainFragment"
+        android:name="com.michael.navigationuidemo.drawerlayout.DrawerLayoutMainFragment"
+        android:label="DrawerLayoutMainFragment"
+        tools:layout="@layout/fragment_drawer_layout_main"/>
+    <fragment
+        android:id="@+id/drawerLayoutSettingsFragment"
+        android:name="com.michael.navigationuidemo.drawerlayout.DrawerLayoutSettingsFragment"
+        android:label="fragment_drawer_layout_second"
+        tools:layout="@layout/fragment_drawer_layout_settings"/>
+</navigation>

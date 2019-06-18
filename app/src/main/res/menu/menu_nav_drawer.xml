@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/primary">
+        <item
+            android:id="@+id/drawerLayoutMainFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="主页" />
+        <item
+            android:id="@+id/drawerLayoutSettingsFragment"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:title="设置" />
+    </group>
+</menu>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation_graph"
+            app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.michael.navigationuidemo.MainFragment"
+        android:label="MainFragment">
+        <action
+            android:id="@+id/action_mainFragment_to_menuActivity"
+            app:destination="@id/menuActivity"/>
+        <action
+            android:id="@+id/action_mainFragment_to_drawerLayoutActivity"
+            app:destination="@id/drawerLayoutActivity"/>
+        <action
+            android:id="@+id/action_mainFragment_to_bottomNavigationBarActivity"
+            app:destination="@id/bottomNavigationBarActivity"/>
+    </fragment>
+    <activity
+        android:id="@+id/menuActivity"
+        android:name="com.michael.navigationuidemo.menu.MenuActivity"
+        android:label="MenuActivity"/>
+    <activity
+        android:id="@+id/drawerLayoutActivity"
+        android:name="com.michael.navigationuidemo.drawerlayout.DrawerLayoutActivity"
+        android:label="activity_drawer_layout"
+        tools:layout="@layout/activity_drawer_layout"/>
+    <activity
+        android:id="@+id/bottomNavigationBarActivity"
+        android:name="com.michael.navigationuidemo.bottomnavigationbar.BottomNavigationBarActivity"
+        android:label="BottomNavigationBarActivity"/>
+
+</navigation>

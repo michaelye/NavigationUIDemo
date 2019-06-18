@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/menu_graph"
+            app:startDestination="@id/menuMainFragment">
+
+    <fragment
+        android:id="@+id/menuMainFragment"
+        android:name="com.michael.navigationuidemo.menu.MenuMainFragment"
+        android:label="MenuMainFragment"/>
+
+    <fragment
+        android:id="@+id/menuSettingsFragment"
+        android:name="com.michael.navigationuidemo.menu.MenuSettingsFragment"
+        android:label="MenuMoreFragment"/>
+
+</navigation>
